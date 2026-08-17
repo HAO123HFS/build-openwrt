@@ -4,7 +4,8 @@
 # @FilePath     : \build-openwrt\.github\workflows\build.yaml
 # @Description  : GitHub Actions 自动构建 OpenWrt
 ###
-
+env:
+  SSH_ACTIONS: true
 name: Build OpenWrt
 
 # 触发条件
